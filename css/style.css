@@ -2,6 +2,10 @@
     background-color: #1abc9c;
 }
 
+.blue-bg{
+    background-color: #3a546d;
+}
+
 .white_text{
     color: white;
 }
@@ -19,6 +23,10 @@
     border-radius: 15%;
     background-color: black;
 }
+.my_smaller-wrapper{
+    width: 60%;
+}
+
 
 
 /*
