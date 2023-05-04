@@ -15,52 +15,43 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark dark_blue-bg ">
-            <div class="container py-2">
-                <a class="navbar-brand " href="#">
-                    <h1 class="text-uppercase fs-5 fw-bold mb-0">
-                        start bootstrap
-                    </h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <header class="dark_blue-bg py-3">
+        <div class="my_bigger-wrapper mx-auto">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bold" href="#">start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     
-                    <li class="nav-item dropdown">
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#"></a></li>
-                        <li><a class="dropdown-item" href="#"></a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#"></a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-                    </li>
-                </ul>
+                    <div class="d-flex justify-content-end">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase" aria-current="page" href="#">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase" aria-current="page" href="#">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase" aria-current="page" href="#">contact</a>
+                            </li>
+                            
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </nav>
+                </nav>
+        </div>
+        
     </header>
 
     <main>
         <section class="green_bg mb-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-6 col-md-5 col-lg-4">
-                        <img class="img-fluid mb-3" src="img/avatar.svg" alt="Avatar image">
+                    <div class="col-6 col-md-5 col-lg-3">
+                        <img class="img-fluid mb-3 pt-3" src="img/avatar.svg" alt="Avatar image">
                     </div>
                     <h1 class="text-uppercase text-center white_text fw-bold mb-4">
                         Start Bootstrap
@@ -170,9 +161,44 @@
         </section>
 
         <section>
-            <h2 class="text-uppercase text-center pt-5">
-                contact me
-            </h2>
+
+            <div class="my_smaller-wrapper mx-auto">
+                <h2 class="text-uppercase text-center pt-5">
+                    contact me
+                </h2>
+
+                <div class="row justify-content-center align-items-center h-100 my-4">
+                    <div class="col-5 b_line"></div>
+
+                    <i class="fa-solid fa-star fs-1 col-2 text-center" style="color: black;"></i>
+
+                    <div class="col-5 b_line"></div>
+                </div>    
+
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Email Address</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+                </div>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+
+                <button type="button" class="btn btn-outline-* white_text my-3">Send</button>
+
+
+            </div>
+
+
         </section>
     </main>
 
@@ -180,8 +206,8 @@
         <section class="blue-bg">
             <div class="container text-center py-5">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <p class="white_text text-uppercase">
+                    <div class="col-12 col-md-4 mb-4">
+                        <p class="white_text text-uppercase mb-0">
                             location
                         </p>
                         <p class="white_text text-center">
@@ -189,8 +215,8 @@
                         </p>
                     </div>
 
-                    <div class="col-12 col-md-4">
-                        <p class="white_text text-uppercase">
+                    <div class="col-12 col-md-4 mb-5">
+                        <p class="white_text text-uppercase mb-0">
                             around the web
                         </p>
                         <div class="white_text">
@@ -202,7 +228,7 @@
                     </div>
 
                     <div class="col-12 col-md-4">
-                        <p class="white_text text-uppercase">
+                        <p class="white_text text-uppercase mb-0">
                             about freelancer
                         </p>
                         <p class="white_text">
