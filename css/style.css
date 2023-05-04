@@ -24,7 +24,12 @@
     background-color: black;
 }
 .my_smaller-wrapper{
-    width: 60%;
+    width: 70%;
+}
+
+button.white_text{
+    border: white 1px solid;
+    padding: .8rem;
 }
 
 
